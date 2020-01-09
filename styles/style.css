@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+}
+
+#main-header {
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    left: 0px;
+    right: 0px
+}
+
+.flex-container {
+    display: flex;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    padding: 0px 20px 0px 0px;
+}
+
+.w30 {
+    width: 30%;
+}
+
+.w70 {
+    width: 70%;
+}
+
+.p10 {
+    padding: 10px;
+}
