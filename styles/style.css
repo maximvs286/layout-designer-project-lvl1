@@ -2,11 +2,8 @@ body {
     font-family: sans-serif;
 }
 
-body header {
-    font-weight: bolder;
-}
-
 #main-header {
+    font-weight: bolder;
     position: fixed;
     background-color: #fff;
     top: 0px;
@@ -27,6 +24,10 @@ header nav ul {
 
 header nav ul li {
     padding: 0px 20px 0px 0px;
+}
+
+#logo {
+    align-items: center;
 }
 
 .w30 {
