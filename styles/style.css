@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    margin: 0px;
 }
 
 #main-header {
@@ -8,7 +9,22 @@ body {
     background-color: #fff;
     top: 0px;
     left: 0px;
-    right: 0px
+    right: 0px;
+    z-index: 1;
+}
+
+.banner {
+    text-align: center;
+    color: #fff;
+}
+
+.banner-picture {
+    height: 440px;
+}
+
+.banner-overlap {
+    flex-direction: column;
+    position: relative;
 }
 
 .flex-container {
