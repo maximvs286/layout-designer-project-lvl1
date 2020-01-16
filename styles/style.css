@@ -7,14 +7,6 @@ body {
     color: #fff;
 }
 
-.white-text {
-    color: black;
-}
-
-.column {
-    flex-direction: column;
-}
-
 .flex-container {
     display: flex;
 }
