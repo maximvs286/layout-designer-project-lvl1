@@ -68,7 +68,9 @@ body {
 }
 
 #overlap {
-    position: relative;
+    position: absolute;
+    z-index: 2;
     text-align: center;
-    top: calc((-1080px/2) + 70px - 293px/2);
+    top: calc((1080px/2) + 70px - 293px/2);
+    left: calc(100%/2 - 306px/2);
 }
