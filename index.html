@@ -4,39 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ЖК «Лунное море»</title>
+    <title>ЖК &laquo;Лунное море&raquo; — maximvs286</title>
 
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header id="main-header" class="flex-container">
-        <div id="logo"  class="w30 flex-container">
-            <img id="top-logo" src="images/logo.svg" height="35" alt="logo">
+    <header id="header" class="flex-container align-center">
+        <div class="flex-container w30 align-center">
+            <img id="top-logo" class="plr20" src="images/logo.svg" height="40" alt="logo">
             <p>Лунное море</p>
         </div>
-        <nav id="menu" class="w70">
-            <ul>
-                <li>Преимущества</li>
-                <li>О ЖК</li>
-                <li>Места для отдыха</li>
+        <nav class="w70">
+            <ul class="ls-none flex-container j-end">
+                <li class="pl20">Преимущества</li>
+                <li class="pl20">О ЖК</li>
+                <li class="pl20">Места для отдыха</li>
             </ul>
         </nav>
     </header>
-    <main id="main">
-        <div class="banner">
-            <div class="banner-picture">
-                <img src="images/banner.png" alt="banner">
-            </div>
-            <div class="flex-container banner-overlap">
-                <img src="images/logo.svg" height="135" alt="logo">
-                <h1>ЖК «Лунное море»</h1>
-                <h3>Место, откуда не хочется улетать</h3>
-                <form>
-                    <button>Забронировать</button>
-                </form>
-            </div>
+    <main>
+        <div id="banner" class="flex-container j-center">
+            <img src="images/banner.png" alt="earth-view">
+        </div>
+        <div id="overlap" class="inverse-text">
+            <img id="banner-logo" src="images/logo.svg" alt="logo">
+            <h1>ЖК «Лунное море»</h1>
+            <p>Место, откуда не хочется улетать</p>
+            <form>
+                <button class="banner-button">Забронировать</button>
+            </form>
         </div>
     </main>
-    <footer id="footer">footer</footer>
+    <footer>footer</footer>
 </body>
 </html>

@@ -1,49 +1,37 @@
 body {
     font-family: sans-serif;
-    margin: 0px;
+    margin: 0;
 }
 
-#main-header {
-    font-weight: bolder;
-    position: fixed;
-    background-color: #fff;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    z-index: 1;
-}
-
-.banner {
-    text-align: center;
+.inverse-text {
     color: #fff;
 }
 
-.banner-picture {
-    height: 440px;
+.white-text {
+    color: black;
 }
 
-.banner-overlap {
+.column {
     flex-direction: column;
-    position: relative;
 }
 
 .flex-container {
     display: flex;
 }
-
-header nav ul {
-    display: flex;
+.ls-none {
     list-style: none;
-    padding: 0;
+}
+
+.pl20 {
+    padding: 0 20px 0 0;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-end {
     justify-content: flex-end;
-}
-
-header nav ul li {
-    padding: 0px 20px 0px 0px;
-}
-
-#logo {
-    align-items: center;
 }
 
 .w30 {
@@ -54,6 +42,42 @@ header nav ul li {
     width: 70%;
 }
 
+.align-center {
+    align-items: center;
+}
+
+.banner-button {
+    background-color: transparent;
+    border-radius: 5px;
+    height: 35px;
+    color: #fff;
+}
+
+#header {
+    position: fixed;
+    background-color: #fff;
+    height: 70px;
+    left: 0;
+    right: 0;
+    font-weight: bolder;
+    z-index: 1
+}
+
 #top-logo {
-    padding: 0px 20px;
+    padding: 0 20px;
+}
+
+#banner-logo {
+    width: 140px;
+}
+
+#banner {
+    position: absolute;
+    top: 70px;
+}
+
+#overlap {
+    position: relative;
+    text-align: center;
+    top: calc((1080px/2) + 70px - 293px/2);
 }
