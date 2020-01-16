@@ -64,12 +64,11 @@ body {
 }
 
 #banner {
-    position: absolute;
     top: 70px;
 }
 
 #overlap {
     position: relative;
     text-align: center;
-    top: calc((1080px/2) + 70px - 293px/2);
+    top: calc((-1080px/2) + 70px - 293px/2);
 }
