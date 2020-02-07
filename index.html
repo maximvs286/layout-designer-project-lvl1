@@ -26,10 +26,10 @@
         <div class="flex-container j-center ">
             <img src="images/banner.png" alt="earth-view">
         </div>
-        <div id="overlap" class="inverse-text">
+        <div id="overlap" class="inverse-text text-center">
             <img id="banner-logo" src="images/logo.svg" alt="logo">
             <h1>ЖК «Лунное море»</h1>
-            <p>Место, откуда не хочется улетать</p><button>Забронировать</button>
+            <p>Место, откуда не хочется улетать</p><button id="book" class="button">Забронировать</button>
         </div>
     </div>
     <main>
@@ -73,6 +73,50 @@
             </div>
             </div>
         </section>
+        <div class="flex-container light-tint j-center">
+            <div>
+                <h4 class="text-center">Оставьте заявку сегодня</h4>
+                <form class="form-width bm25">
+                    <fieldset class="fieldset-margin">
+                        <legend class="space-color">Параметры квартиры</legend>
+                        <div class="field">
+                            <label for="rooms">Количество комнат: </label>
+                            <select id="rooms">
+                                <option disabled>Выбрать количество комнат</option>
+                                <option>1</option>
+                                <option>3</option>
+                                <option>весь модуль</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="style">Отделка: </label>
+                            <select id="style">
+                                <option disabled>Выбрать отделку</option>
+                                <option>без отделки</option>
+                                <option>с отделкой</option>
+                                <option>луноремонт</option>
+                            </select>
+                        </div>
+                    </fieldset>
+                    <fieldset class="fieldset-margin">
+                        <legend class="space-color">Контактная информация</legend>
+                        <div class="field">
+                            <label for="name">Имя: </label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Телефон: </label>
+                            <input type="tel" id="phone">
+                        </div>
+                        <div class="field">
+                            <label for="e-mail">E-mail: </label>
+                            <input type="email" id="e-mail">
+                        </div>
+                    </fieldset>
+                    <button id="submit" class="space-color button">Отправить</button>
+                </form>
+            </div>
+        </div>
     </main>
     <footer>footer</footer>
 </body>

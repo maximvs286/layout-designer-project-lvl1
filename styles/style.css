@@ -3,6 +3,32 @@ body {
     margin: 0;
 }
 
+label {
+    display: block;
+    float: left;
+    width: 260px;
+}
+
+input, select {
+    height: 20px;
+    border: 1px solid auto;
+}
+
+input {
+    height: 20px;
+    width: 200px;
+    border-radius: 5px;
+}
+
+select {
+    width: 150px;
+}
+
+fieldset {
+    border: 1px solid #58cca8;
+    border-radius: 5px;
+}
+
 .inverse-text {
     color: #fff;
 }
@@ -75,6 +101,50 @@ body {
     background-color: #f6f6f6;
 }
 
+.column {
+    flex-direction: column;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.space-color {
+    color: #58cca8;
+}
+
+.form-width {
+    width: 500px;
+}
+
+.fieldset-margin {
+    margin-bottom: 25px;
+}
+
+.field {
+    margin: 15px 0;
+}
+
+.bm25 {
+    margin-bottom: 25px;
+}
+
+.button {
+    padding: 5px 10px;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+#book {
+    border: 1px solid white;
+    color: white;
+}
+
+#submit {
+    border: 1px solid #58cca8;
+    color: #58cca8;
+}
+
 #header {
     position: fixed;
     background-color: #fff;
@@ -95,7 +165,6 @@ body {
 
 #overlap {
     position: absolute;
-    text-align: center;
     top: calc(1008px / 2 - 277px / 2 + 70px);
     left: calc(50% - 305px/2);
     z-index: 50;
