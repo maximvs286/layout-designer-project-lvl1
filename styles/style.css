@@ -29,6 +29,31 @@ fieldset {
     border-radius: 5px;
 }
 
+footer {
+    padding: 40px 150px;
+}
+
+footer h4 {
+    margin-top: 15px;
+}
+
+footer li, p {
+    font-size: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #58cca8;
+}
+
+.bolder {
+    font-weight: bolder;
+}
+
 .inverse-text {
     color: #fff;
 }
@@ -63,6 +88,10 @@ fieldset {
 
 .j-end {
     justify-content: flex-end;
+}
+
+.j-sb {
+    justify-content: space-between;
 }
 
 .w30 {
@@ -111,6 +140,10 @@ fieldset {
 
 .space-color {
     color: #58cca8;
+}
+
+.dark-space-color {
+    background-color: #2b313d;
 }
 
 .form-width {
