@@ -199,7 +199,20 @@ a:hover {
 
 #overlap {
     position: absolute;
-    top: calc(1008px / 2 - 277px / 2 + 70px);
+    top: calc(400px / 2 - 277px / 2 + 70px);
     left: calc(50% - 305px/2);
-    z-index: 50;
+    z-index: 4;
+}
+
+#banner {
+    height: 470px;
+    background: #0c0b08 url(../images/banner.png) center no-repeat;
+}
+
+#about, #advantages, #places, #order {
+    border-top: 70px solid transparent;
+    margin-top: -70px;
+    -moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
 }
