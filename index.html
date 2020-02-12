@@ -30,7 +30,7 @@
             <img id="banner-logo" src="images/logo.svg" alt="logo">
             <h1>ЖК «Лунное море»</h1>
             <p>Место, откуда не хочется улетать</p>
-            <button id="book" class="button" onclick="window.location.href='#order';">Забронировать</button>
+            <a href="#order"><button id="book" class="button">Забронировать</button></a>
         </div>
     </div>
     <main>
@@ -84,18 +84,18 @@
                             <label for="rooms">Количество комнат: </label>
                             <select id="rooms">
                                 <option disabled>Выбрать количество комнат</option>
-                                <option>1</option>
-                                <option>3</option>
-                                <option>весь модуль</option>
+                                <option value="1">1</option>
+                                <option value="3">3</option>
+                                <option value="all">весь модуль</option>
                             </select>
                         </div>
                         <div class="field">
                             <label for="style">Отделка: </label>
                             <select id="style">
                                 <option disabled>Выбрать отделку</option>
-                                <option>без отделки</option>
-                                <option>с отделкой</option>
-                                <option>луноремонт</option>
+                                <option value="rough">без отделки</option>
+                                <option value="fine">с отделкой</option>
+                                <option value="lunar">луноремонт</option>
                             </select>
                         </div>
                     </fieldset>

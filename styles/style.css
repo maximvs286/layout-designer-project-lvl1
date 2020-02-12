@@ -10,18 +10,19 @@ label {
 }
 
 input, select {
-    height: 20px;
-    border: 1px solid auto;
+    display: block;
+    background-color: white;
+    border: 1px solid #ccc;
+    width: 200px;
+}
+
+select {
+    height: 25px;
 }
 
 input {
     height: 20px;
-    width: 200px;
     border-radius: 5px;
-}
-
-select {
-    width: 150px;
 }
 
 fieldset {
