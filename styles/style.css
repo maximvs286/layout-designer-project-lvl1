@@ -206,7 +206,7 @@ a:hover {
 
 #banner {
     height: 470px;
-    background: #58cca8 url(../images/banner.png) center no-repeat;
+    background: #f6f6f6 url(../images/banner.png) center no-repeat;
 }
 
 #about, #advantages, #places, #order {
