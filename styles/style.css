@@ -71,15 +71,15 @@ a:hover {
     padding-right: 20px;
 }
 
-.pl60 {
+.padding-left-60 {
     padding-left: 60px;
 }
 
-.pl100 {
+.padding-left-100 {
     padding-left: 100px;
 }
 
-.j-center {
+.justify-center {
     justify-content: center;
 }
 
@@ -87,7 +87,7 @@ a:hover {
     justify-content: flex-end;
 }
 
-.j-sb {
+.justify-space-between {
     justify-content: space-between;
 }
 
@@ -107,7 +107,7 @@ a:hover {
   width: 33%!important;
 }
 
-.m-top-0 {
+.margin-top-0 {
     margin-top: 0;
 }
 
@@ -119,16 +119,12 @@ a:hover {
     align-items: center;
 }
 
-.section {
+.p60 {
     padding: 60px;
 }
 
 .light-tint {
     background-color: #f6f6f6;
-}
-
-.column {
-    flex-direction: column;
 }
 
 .text-center {
@@ -147,16 +143,12 @@ a:hover {
     width: 500px;
 }
 
-.fieldset-margin {
+.margin-bottom-25 {
     margin-bottom: 25px;
 }
 
-.field {
+.margin-top-bottom-15 {
     margin: 15px 0;
-}
-
-.bm25 {
-    margin-bottom: 25px;
 }
 
 .button {
@@ -165,17 +157,17 @@ a:hover {
     border-radius: 5px;
 }
 
-#book {
+.book {
     border: 1px solid white;
     color: white;
 }
 
-#submit {
+.submit {
     border: 1px solid #58cca8;
     color: #58cca8;
 }
 
-#header {
+.top-nav {
     position: fixed;
     background-color: #fff;
     height: 70px;
@@ -185,27 +177,27 @@ a:hover {
     z-index: 100;
 }
 
-#top-logo {
+.padding-left-right-20 {
     padding: 0 20px;
 }
 
-#banner-logo {
+.w140 {
     width: 140px;
 }
 
-#overlap {
+.overlap {
     position: absolute;
     top: calc(400px / 2 - 277px / 2 + 70px);
     left: calc(50% - 305px/2);
     z-index: 4;
 }
 
-#banner {
+.banner {
     height: 470px;
     background: #2b313d url(../images/banner.png) center no-repeat;
 }
 
-#about, #advantages, #places, #order {
+.top-shift-70 {
     border-top: 70px solid transparent;
     margin-top: -70px;
     -moz-background-clip: padding;

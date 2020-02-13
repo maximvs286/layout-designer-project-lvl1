@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header id="header" class="flex-container align-center">
+    <header class="flex-container align-center top-nav">
         <div class="flex-container w30 align-center">
-            <img id="top-logo" class="plr20" src="images/logo.svg" height="40" alt="logo">
+            <img class="padding-left-right-20" src="images/logo.svg" height="40" alt="logo">
             <p>Лунное море</p>
         </div>
         <nav class="w70">
@@ -23,63 +23,63 @@
         </nav>
     </header>
     <div id="first" class="relative">
-        <div id="banner">
+        <div class="banner">
         </div>
-        <div id="overlap" class="inverse-text text-center">
-            <img id="banner-logo" src="images/logo.svg" alt="logo">
+        <div class="inverse-text text-center overlap">
+            <img class="w140" src="images/logo.svg" alt="logo">
             <h1>ЖК «Лунное море»</h1>
             <p>Место, откуда не хочется улетать</p>
-            <a href="#order"><button id="book" class="button">Забронировать</button></a>
+            <a href="#order"><button class="button book">Забронировать</button></a>
         </div>
     </div>
     <main>
-        <section id="advantages" class="flex-container j-center section">
-            <div class="flex-container w1000 justify-end">
+        <section id="advantages" class="flex-container justify-center p60 top-shift-70">
+            <div class="flex-container w1000">
                 <div class="w33">
                     <h2>Уникальный вид</h2>
                     <p>Вид на космос из вашего окна. Мы построили дома с большими окнами, чтобы вы могли наслаждаться метеоритными потоками.</p>
                 </div>
-                <div class="pl60 w33">
+                <div class="padding-left-60 w33">
                     <h2>Инфраструктура</h2>
                     <p>Прекрасные дороги рядом с&nbsp;домом. Много мест для прогулки. Всего в&nbsp;200&nbsp;км. от посёлка находится кольцо гор Кордильеры, на которых вы сможете провести незабываемые выходные.</p>
                 </div>
-                <div class="pl60 w33">
+                <div class="padding-left-60 w33">
                     <h2>Близость к Москве</h2>
                     <p>При небольшой цене мы располагаемся близко к&nbsp;МКАД. Всего 384&nbsp;000&nbsp;километров и&nbsp;вы в&nbsp;самом сердце России.</p>
                 </div>
             </div>
         </section>
-        <section id="about" class="flex-container j-center section light-tint">
+        <section id="about" class="flex-container justify-center p60 light-tint top-shift-70">
             <div class="flex-container w1000">
                 <div>
-                    <h2 class="m-top-0">О ЖК «Лунное море»</h2>
+                    <h2 class="margin-top-0">О ЖК «Лунное море»</h2>
                     <p>Все чаще жители Москвы предпочитают загородный дом городской квартире, к&nbsp;тому же связь с&nbsp;мегаполисом не теряется – современные скоростные трассы позволяют без труда добираться до столицы и&nbsp;обратно.</p>
                     <p>Мы построили наши дома на самом близком к Солнцу спутнике, всего в&nbsp;380&nbsp;тысяч&nbsp;километров от Земли.</p>
                 </div>
-                <div class="pl100">
+                <div class="padding-left-100">
                     <img src="images/moon-1.jpg" alt="moon1" width="350">
                 </div>
             </div>
         </section>
-        <section id="places" class="flex-container section j-center">
+        <section id="places" class="flex-container p60 justify-center top-shift-70">
             <div class="flex-container w1000">
             <div>
                 <img src="images/moon-2.jpg" alt="moon2" width="350">
             </div>
-            <div class="pl100">
-                <h2 class="m-top-0">Места для отдыха</h2>
+            <div class="padding-left-100">
+                <h2 class="margin-top-0">Места для отдыха</h2>
                 <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В&nbsp;вашем распоряжении 22&nbsp;моря и 18&nbsp;гор. Самое ближайшее кольцо гор всего в&nbsp;200&nbsp;километров от вашей квартиры.</p>
                 <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
             </div>
             </div>
         </section>
-        <div id="order" class="flex-container light-tint j-center">
+        <div id="order" class="flex-container light-tint justify-center p60 top-shift-70">
             <div>
-                <h2 class="text-center">Оставьте заявку сегодня!</h2>
-                <form class="form-width bm25">
-                    <fieldset class="fieldset-margin">
+                <h2 class="text-center margin-top-0">Оставьте заявку сегодня!</h2>
+                <form class="form-width">
+                    <fieldset class="margin-bottom-25">
                         <legend class="space-color">Параметры квартиры</legend>
-                        <div class="field">
+                        <div class="margin-top-bottom-15">
                             <label for="rooms">Количество комнат: </label>
                             <select id="rooms">
                                 <option disabled>Выбрать количество комнат</option>
@@ -88,7 +88,7 @@
                                 <option value="all">весь модуль</option>
                             </select>
                         </div>
-                        <div class="field">
+                        <div class="margin-top-bottom-15">
                             <label for="style">Отделка: </label>
                             <select id="style">
                                 <option disabled>Выбрать отделку</option>
@@ -98,27 +98,27 @@
                             </select>
                         </div>
                     </fieldset>
-                    <fieldset class="fieldset-margin">
+                    <fieldset class="margin-bottom-25">
                         <legend class="space-color">Контактная информация</legend>
-                        <div class="field">
+                        <div class="margin-top-bottom-15">
                             <label for="name">Имя: </label>
                             <input type="text" id="name">
                         </div>
-                        <div class="field">
+                        <div class="margin-top-bottom-15">
                             <label for="phone">Телефон: </label>
                             <input type="tel" id="phone">
                         </div>
-                        <div class="field">
+                        <div class="margin-top-bottom-15">
                             <label for="e-mail">E-mail: </label>
                             <input type="email" id="e-mail">
                         </div>
                     </fieldset>
-                    <button id="submit" class="space-color button">Отправить</button>
+                    <button class="space-color button submit">Отправить</button>
                 </form>
             </div>
         </div>
     </main>
-    <footer class="flex-container dark-space-color inverse-text j-sb">
+    <footer class="flex-container dark-space-color inverse-text justify-space-between">
         <div>
             <div class="flex-container align-center">
                 <img class="padding-right-20" src="images/logo.svg" height="35" alt="logo">
