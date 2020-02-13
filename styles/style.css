@@ -204,3 +204,7 @@ a:hover {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 }
+
+.size75 {
+    font-size: 75%;
+}
