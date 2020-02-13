@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header class="flex-container align-center top-nav">
+    <header class="flex-container align-center top-nav left-right-0">
         <div class="flex-container w30 align-center">
             <img class="padding-left-right-20" src="images/logo.svg" height="40" alt="logo">
             <p>Лунное море</p>
@@ -22,14 +22,16 @@
             </ul>
         </nav>
     </header>
-    <div id="first" class="relative">
-        <div class="banner">
+    <div class="relative">
+        <div class="banner h470">
         </div>
-        <div class="inverse-text text-center overlap">
-            <img class="w140" src="images/logo.svg" alt="logo">
-            <h1>ЖК «Лунное море»</h1>
-            <p>Место, откуда не хочется улетать</p>
-            <a href="#order"class="button book size75">Забронировать</a>
+        <div class="flex-container justify-center inverse-text h400 left-right-0 overlap align-center">
+            <div class="text-center">
+                <img class="w140" src="images/logo.svg" alt="logo">
+                <h1>ЖК «Лунное море»</h1>
+                <p>Место, откуда не хочется улетать</p>
+                <a href="#order"class="button book size75">Забронировать</a>
+            </div>
         </div>
     </div>
     <main>
@@ -63,14 +65,14 @@
         </section>
         <section id="places" class="flex-container p60 justify-center top-shift-70">
             <div class="flex-container w1000">
-            <div>
-                <img src="images/moon-2.jpg" alt="moon2" width="350">
-            </div>
-            <div class="padding-left-100">
-                <h2 class="margin-top-0">Места для отдыха</h2>
-                <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В&nbsp;вашем распоряжении 22&nbsp;моря и 18&nbsp;гор. Самое ближайшее кольцо гор всего в&nbsp;200&nbsp;километров от вашей квартиры.</p>
-                <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
-            </div>
+                <div>
+                    <img src="images/moon-2.jpg" alt="moon2" width="350">
+                </div>
+                <div class="padding-left-100">
+                    <h2 class="margin-top-0">Места для отдыха</h2>
+                    <p>Луна обладает всеми условиями для комфортного отдыха от большого города. В&nbsp;вашем распоряжении 22&nbsp;моря и 18&nbsp;гор. Самое ближайшее кольцо гор всего в&nbsp;200&nbsp;километров от вашей квартиры.</p>
+                    <p>Дома располагаются в новом районе «Лунные моря». При необходимости есть автобусы до района «Лунный материк».</p>
+                </div>
             </div>
         </section>
         <div id="order" class="flex-container light-tint justify-center p60 top-shift-70">
@@ -113,7 +115,7 @@
                             <input type="email" id="e-mail">
                         </div>
                     </fieldset>
-                    <button class="space-color button submit">Отправить</button>
+                    <button type="submit" class="space-color button submit">Отправить</button>
                 </form>
             </div>
         </div>

@@ -171,10 +171,13 @@ a:hover {
     position: fixed;
     background-color: #fff;
     height: 70px;
-    left: 0;
-    right: 0;
     font-weight: bolder;
     z-index: 100;
+}
+
+.left-right-0 {
+    left: 0;
+    right: 0;
 }
 
 .padding-left-right-20 {
@@ -187,14 +190,20 @@ a:hover {
 
 .overlap {
     position: absolute;
-    top: calc(400px / 2 - 277px / 2 + 70px);
-    left: calc(50% - 305px/2);
+    top: 70px;
     z-index: 4;
 }
 
 .banner {
-    height: 470px;
     background: #2b313d url(../images/banner.png) center no-repeat;
+}
+
+.h470 {
+    height: 470px;
+}
+
+.h400 {
+    height: 400px;
 }
 
 .top-shift-70 {
