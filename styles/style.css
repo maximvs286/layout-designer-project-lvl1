@@ -1,4 +1,5 @@
 :root {
+    --top-nav-height: 70px;
     --accent-color: #58cca8;
     --field-border-color: #ccc;
     --moon-dust-color: #f6f6f6;
@@ -177,7 +178,7 @@ a:hover {
 .top-nav {
     position: fixed;
     background-color: white;
-    height: 70px;
+    height: var(--top-nav-height);
     font-weight: bolder;
     z-index: 100;
 }
@@ -197,7 +198,7 @@ a:hover {
 
 .overlap {
     position: absolute;
-    top: 70px;
+    top: var(--top-nav-height);
     z-index: 4;
 }
 
@@ -213,9 +214,11 @@ a:hover {
     height: 400px;
 }
 
-.top-shift-70 {
-    border-top: 70px solid transparent;
-    margin-top: -70px;
+.top-shift {
+    border-top-width: var(--top-nav-height);
+    border-top-style: solid;
+    border-top-color: transparent;
+    margin-top: calc(var(--top-nav-height) * -1);
     -moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
