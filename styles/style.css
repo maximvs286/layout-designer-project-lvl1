@@ -1,5 +1,6 @@
 :root {
     --accent-color: #58cca8;
+    --field-border-color: #ccc;
 }
 
 body {
@@ -16,7 +17,7 @@ label {
 input, select {
     display: block;
     background-color: white;
-    border: 1px solid #ccc;
+    border: 1px solid var(--field-border-color);
     width: 200px;
 }
 
@@ -60,7 +61,7 @@ a:hover {
 }
 
 .inverse-text {
-    color: #fff;
+    color: white;
 }
 
 .flex-container {
@@ -173,7 +174,7 @@ a:hover {
 
 .top-nav {
     position: fixed;
-    background-color: #fff;
+    background-color: white;
     height: 70px;
     font-weight: bolder;
     z-index: 100;
