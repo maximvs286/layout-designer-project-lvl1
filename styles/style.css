@@ -1,5 +1,6 @@
 :root {
     --top-nav-height: 70px;
+    --banner-height: 400px;
     --accent-color: #58cca8;
     --field-border-color: #ccc;
     --moon-dust-color: #f6f6f6;
@@ -206,12 +207,12 @@ a:hover {
     background: gray url(../images/banner.png) center no-repeat;
 }
 
-.h470 {
-    height: 470px;
+.banner-plus-nav-heght {
+    height: calc(var(--banner-height) + var(--top-nav-height));
 }
 
-.h400 {
-    height: 400px;
+.banner-heght {
+    height: var(--banner-height);
 }
 
 .top-shift {
