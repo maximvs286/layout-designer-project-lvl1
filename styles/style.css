@@ -1,6 +1,7 @@
 :root {
     --accent-color: #58cca8;
     --field-border-color: #ccc;
+    --moon-dust-color: #f6f6f6;
 }
 
 body {
@@ -128,8 +129,8 @@ a:hover {
     padding: 60px;
 }
 
-.light-tint {
-    background-color: #f6f6f6;
+.moon-dust-color {
+    background-color: var(--moon-dust-color);
 }
 
 .text-center {
