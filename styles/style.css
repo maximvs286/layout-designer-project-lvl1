@@ -108,6 +108,10 @@ a:hover {
     width: 70%;
 }
 
+.w50 {
+    width: 50%;
+}
+
 .w1000 {
     width: 1000px;
 }
