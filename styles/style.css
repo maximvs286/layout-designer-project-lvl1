@@ -124,8 +124,12 @@ a:hover {
     position: relative;
 }
 
-.align-center {
+.align-flex-center {
     align-items: center;
+}
+
+.align-flex-end {
+    align-items: flex-end;
 }
 
 .p60 {
@@ -177,14 +181,12 @@ a:hover {
 }
 
 .top-nav {
+    top: 0;
     position: fixed;
     background-color: white;
     height: var(--top-nav-height);
     font-weight: bolder;
     z-index: 100;
-}
-
-.left-right-0 {
     left: 0;
     right: 0;
 }
@@ -207,11 +209,11 @@ a:hover {
     background: gray url(../images/banner.png) center no-repeat;
 }
 
-.banner-plus-nav-heght {
+.banner-plus-nav-height {
     height: calc(var(--banner-height) + var(--top-nav-height));
 }
 
-.banner-heght {
+.banner-height {
     height: var(--banner-height);
 }
 
