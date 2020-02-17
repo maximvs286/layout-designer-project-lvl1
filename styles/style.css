@@ -2,6 +2,7 @@
     --accent-color: #58cca8;
     --field-border-color: #ccc;
     --moon-dust-color: #f6f6f6;
+    --space-color: #2b313d;
 }
 
 body {
@@ -141,8 +142,8 @@ a:hover {
     color: var(--accent-color);
 }
 
-.dark-space-color {
-    background-color: #2b313d;
+.space-color {
+    background-color: var(--space-color);
 }
 
 .form-width {
@@ -201,7 +202,7 @@ a:hover {
 }
 
 .banner {
-    background: #2b313d url(../images/banner.png) center no-repeat;
+    background: gray url(../images/banner.png) center no-repeat;
 }
 
 .h470 {
