@@ -108,16 +108,16 @@ a:hover {
     width: 70%;
 }
 
+.w300 {
+    width: 300px;
+}
+
 .w50 {
     width: 50%;
 }
 
 .w1000 {
     width: 1000px;
-}
-
-.w33 {
-  width: 33%!important;
 }
 
 .margin-top-0 {
@@ -130,10 +130,6 @@ a:hover {
 
 .align-flex-center {
     align-items: center;
-}
-
-.align-flex-end {
-    align-items: flex-end;
 }
 
 .p60 {
@@ -199,26 +195,19 @@ a:hover {
     padding: 0 20px;
 }
 
-.w140 {
-    width: 140px;
-}
-
 .overlap {
     position: absolute;
     top: var(--top-nav-height);
     z-index: 4;
 }
 
+.margin-for-nav {
+    margin-top: var(--top-nav-height);
+}
+
 .banner {
-    background: gray url(../images/banner.png) center no-repeat;
-}
-
-.banner-plus-nav-height {
-    height: calc(var(--banner-height) + var(--top-nav-height));
-}
-
-.banner-height {
     height: var(--banner-height);
+    background: gray url(../images/banner.png) center no-repeat;
 }
 
 .top-shift {
